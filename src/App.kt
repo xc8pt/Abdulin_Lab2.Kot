@@ -22,5 +22,17 @@ fun main(){
 //    } else {
 //        println("Полученный урон: $uron")
 //    }
+//    print("Введите ваш уровень: ")
+//    val n1 = readln().toInt()
+//    print("Есть ли у вас VIP-status(true and false): ")
+//    val n2 = readln().toBoolean()
+//    if ((n1 >= 30 && n2 ) || n1 >= 50) {
+//        println("Доступ разрешен!")
+//    } else{
+//        println("Доступ запрещен!")
+//    }
+
+
+
 
 }
