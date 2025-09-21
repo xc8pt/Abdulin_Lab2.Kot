@@ -68,7 +68,6 @@ fun main(){
     */
     val film = listOf("Кинг-конг", "Титаник", "Хоббит","Храброе средце",
         "Властелин колец")
-    var index = 0
     repeat(film.size){
         i -> println(film[i])
     }
