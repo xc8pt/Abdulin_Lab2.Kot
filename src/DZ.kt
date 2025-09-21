@@ -1,16 +1,34 @@
 fun main(){
-    print("Введите ваш уровень: ")
-    val level = readln().toInt()
-    if (level in 0..10) {
-        println("Новичок! вы получаете +10 HP.")
+    /*
+    zad1
+     */
+//    print("Введите ваш уровень: ")
+//    val level = readln().toInt()
+//    if (level in 0..10) {
+//        println("Новичок! вы получаете +10 HP.")
+//    }
+//    else if (level in 10..50){
+//        println("Опытный! Вы получаете +30 HP.")
+//    }
+//    else if (level >= 50){
+//        println("Легенда! Вы получаете +100 HP.")
+//    } else{
+//        println("Вы ввели не верный уровень!")
+//    }
+    /*
+    zad2
+     */
+    print("Сколько вам лет: ")
+    val age = readln().toInt()
+    if (age in 1..11){
+        println("Вы ребенок!")
     }
-    else if (level in 10..50){
-        println("Опытный! Вы получаете +30 HP.")
+    else if (age in 12..17){
+        println("Вы подросток!")
     }
-    else if (level >= 50){
-        println("Легенда! Вы получаете +100 HP.")
+    else if (age >= 18){
+        println("Вы взрослый!")
     } else{
-        println("Вы ввели не верный уровень!")
+        println("Вы ввели некорректный возраст!")
     }
-
 }
