@@ -44,14 +44,23 @@ fun main(){
     /*
     zad4
      */
-    print("Введите один символ(Цифровой, Буква(Латинского алфавита)," +
-            "Пробел, Спецсимвол):")
-    val input = readln()
-    val ch = input[0]
-    when (ch){
-        in '0'..'9' -> println("Цифра!")
-        in 'a'..'z', in 'A'..'Z' -> println("Буква латинского алфавита!")
-        ' ' -> println("Пробел!")
-        else -> println("Спецсимвол!")
+//    print("Введите один символ(Цифровой, Буква(Латинского алфавита)," +
+//            "Пробел, Спецсимвол):")
+//    val input = readln()
+//    val ch = input[0]
+//    when (ch){
+//        in '0'..'9' -> println("Цифра!")
+//        in 'a'..'z', in 'A'..'Z' -> println("Буква латинского алфавита!")
+//        ' ' -> println("Пробел!")
+//        else -> println("Спецсимвол!")
+//    }
+    /*
+    zad5
+     */
+    var index = 0
+    val num = 5
+    repeat(times = 10){
+        println("$num * ${index + 1} = ${num * (index + 1)}")
+        index++
     }
 }
