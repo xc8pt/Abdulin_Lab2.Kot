@@ -66,12 +66,22 @@ fun main(){
     /*
     zad6
     */
-    val film = listOf("Кинг-конг", "Титаник", "Хоббит","Храброе средце",
-        "Властелин колец")
-    repeat(film.size){
-        i -> println(film[i])
-    }
-    repeat(film.size){
-        i -> println("Длина фильма ${film[i]} = ${film[i].length}")
-    }
+//    val film = listOf("Кинг-конг", "Титаник", "Хоббит","Храброе средце",
+//        "Властелин колец")
+//    repeat(film.size){
+//        i -> println(film[i])
+//    }
+//    repeat(film.size){
+//        i -> println("Длина фильма ${film[i]} = ${film[i].length}")
+//    }
+    /*
+    zad7
+     */
+    print("Введите своё имя: ")
+    val name = readln()
+    print("Введите свой возраст: ")
+    val age = readln().toInt()
+    print("Введите своё любимый цвет: ")
+    val z = readln()
+    println("Привет, $name! Тебе $age год, и твой любимый цвет $z")
 }
