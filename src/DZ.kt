@@ -18,17 +18,27 @@ fun main(){
     /*
     zad2
      */
-    print("Сколько вам лет: ")
-    val age = readln().toInt()
-    if (age in 1..11){
-        println("Вы ребенок!")
-    }
-    else if (age in 12..17){
-        println("Вы подросток!")
-    }
-    else if (age >= 18){
-        println("Вы взрослый!")
+//    print("Сколько вам лет: ")
+//    val age = readln().toInt()
+//    if (age in 1..11){
+//        println("Вы ребенок!")
+//    }
+//    else if (age in 12..17){
+//        println("Вы подросток!")
+//    }
+//    else if (age >= 18){
+//        println("Вы взрослый!")
+//    } else{
+//        println("Вы ввели некорректный возраст!")
+//    }
+    /*
+    zad3
+     */
+    print("Введите число(от 1 до 100): ")
+    val num = readln().toInt()
+    if (num in 10..50){
+        println("Ваше число $num входит в диапозон(от 10 до 50)!")
     } else{
-        println("Вы ввели некорректный возраст!")
+        println("Ваше число $num не входит в диапозон!")
     }
 }
