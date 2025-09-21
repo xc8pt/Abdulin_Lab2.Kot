@@ -1,4 +1,4 @@
-//fun main() {
+fun main() {
 //    println("Начинаем ритуал защиты!")
 //    var index = 0
 //    repeat(times = 5) {
@@ -6,12 +6,12 @@
 //                "Шаг ${index + 1})!")
 //        index++
 //    }
-//    pepeat(times = 5) { index ->
+//    repeat(times = 5) { index ->
 //        if (index == 2){
-//            println("Пропускаем шаг ${}, из-за магического" +
+//            println("Пропускаем шаг ${index + 1}, из-за магического" +
 //                    "вмешательства!")
-//            renurn@repeat
+//            return@repeat
 //        }
 //    }
 //    println("Замок защищен!")
-//}
+}
