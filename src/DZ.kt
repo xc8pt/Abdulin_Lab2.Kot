@@ -57,10 +57,22 @@ fun main(){
     /*
     zad5
      */
+//    var index = 0
+//    val num = 5
+//    repeat(times = 10){
+//        println("$num * ${index + 1} = ${num * (index + 1)}")
+//        index++
+//    }
+    /*
+    zad6
+    */
+    val film = listOf("Кинг-конг", "Титаник", "Хоббит","Храброе средце",
+        "Властелин колец")
     var index = 0
-    val num = 5
-    repeat(times = 10){
-        println("$num * ${index + 1} = ${num * (index + 1)}")
-        index++
+    repeat(film.size){
+        i -> println(film[i])
+    }
+    repeat(film.size){
+        i -> println("Длина фильма ${film[i]} = ${film[i].length}")
     }
 }
